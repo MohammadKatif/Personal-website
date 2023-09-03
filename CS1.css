@@ -1,0 +1,212 @@
+body{
+        background-color:whitesmoke;
+      }
+      .sectionBanner{
+        height:500px;
+        width:100%;
+        display:flex;
+        flex-direction:column; /*by changing flex direction from row to 
+        colum the function of align-item and justify content also changes*/
+        align-items:center;
+        justify-content:center;
+        background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("https://i.ibb.co/3W3Wmk8/point-detection-research-slide.jpg"); 
+        background-repeat:no-repeat;
+        background-size:cover;
+        /*background-color:brown;*/
+      }
+      .heroBanner{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        cursor:pointer;
+        animation: TextAnimation 1s ease-in forwards 0.1s;
+      }
+      .heroBanner h1{
+        color:white;
+        font-size:60px;;
+        line-height:1.2;
+        font-weight:bolder;
+        font-family:"Raleway", sans-serif;
+        transition: color 0.3s ease-out;
+      }
+      .heroBanner h1:hover{
+        color:deepskyblue;
+      }
+      .heroBanner hr{
+        color:white;
+        width:80%;
+        position:relative;
+        margin-top:-40px;
+        margin-bottom:-40px;
+        transition: color 0.3s ease-out;
+      }
+      .heroBanner hr:hover{
+        color:deepskyblue;
+      }
+      .heroBanner h2{
+        color:deepskyblue;
+        font-size:60px;;
+        line-height:1.2;
+        font-weight:bolder;
+        font-family:"Raleway", sans-serif;
+        transition: color 0.3s ease-out;
+      }
+      .heroBanner h2:hover{
+        color:white;
+      }
+      .heading{
+        align-self:flex-start;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        gap:9px;
+        margin-left:50px;
+      }
+      .heading h1{
+        color:royalblue;
+        font-size:30px;;
+        line-height:1.2;
+        font-weight:900;
+        font-family:"Raleway", sans-serif;
+
+      }
+      .heading h2{
+        color:black;
+        font-size:30px;;
+        line-height:1.2;
+        font-weight:600;
+        font-family:"Raleway", sans-serif;
+      }
+      .line1{
+        width: 1px;
+        height: 110px;
+        background-color: black;
+        align-self:center;
+        justify-self:center;
+      }
+      .line2{
+        width: 1px;
+        height: 210px;
+        background-color: black;
+        align-self:center;
+        justify-self:center;
+      }
+      .line3{
+        width: 1px;
+        height: 175px;
+        background-color: black;
+        align-self:flex-start;
+        justify-self:center;
+      }
+      .content{
+        display:flex;
+        flex-direction:row;
+        align-items:flex-start;
+        justify-content:center;
+        gap:20px;
+        width:100%;
+        padding: 50px;
+      }
+      .content p{
+        font-size:16px;
+        font-weight:400;
+        font-family:"Roboto", sans-serif;
+        color:black;
+        margin-top:0px;
+        margin-bottom:0px;
+      }
+      .content ul{
+        display:flex;
+        flex-direction:column;
+        gap:5px;
+        align-self:flex-start;
+        margin-top:0px;
+      }
+      .content ul li{
+        font-size:16px;
+        font-weight:400;
+        font-family:"Roboto", sans-serif;
+        color:black;
+      }
+      .images{
+        
+        display:flex;
+        flex-direction:column;
+        gap:50px;
+        width:100%;
+      }
+      .images img{
+        padding-left:50px;
+        padding-right:50px;
+      }
+      .sectionChapters{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-top:20px;
+        padding-bottom:30px;
+        background-color:whitesmoke; 
+      }
+      .sectionChapters ol{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        gap:50px;
+        height:50px;
+      }
+      .sectionChapters li{
+        cursor:pointer;
+        color:black;
+        font-size:20px;;
+        line-height:1.2;
+        font-weight:600;
+        font-family:"Roboto", sans-serif;
+      }
+      .sectionChapters ol li a:hover{
+        color:Royalblue;
+      }
+      .sectionChapters ol li a{
+        color:black;
+        font-size:20px;;
+        line-height:1.2;
+        font-weight:600;
+        font-family:"Roboto", sans-serif;
+      }
+      .sectionChapters hr{
+        color:black;
+        background-color:black;
+        width:75%;
+        height:1px;
+        position:relative;
+        margin-top:;
+        margin-bottom:;
+      }
+      .sectionOverview{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-top:20px;
+        padding-bottom:50px;
+        background-color:gainsboro; 
+      }
+      .sectionDetails{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-top:20px;
+        padding-bottom:50px;
+        background-color:gainsboro; 
+      }
+      .sectionObjective{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-top:20px;
+        padding-bottom:50px;
+        background-color:gainsboro; 
+      }

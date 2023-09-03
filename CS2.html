@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - case study-2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<hmtl>
+  <head>
+    <title>CaseStudy</title>
+  </head>
+  <body>
+    <section class=sectionBanner>
+      <div class=heroBanner>
+        <h1>Case Study</h1>
+        <hr>
+        <h2>Line Following Robot</h2>
+      </div>
+    </section>
+    <section class=sectionChapters>
+      <div class=heading>
+        <h2>Case Study</h2>
+        <h1>Chapters</h1>
+      </div>
+      
+      <ol>
+        <li><a onClick="ScrollToSection('Overview')">Project Overview</a></li>
+        <li><a onClick="ScrollToSection('Details')">Project Details</a></li>
+        <li><a onClick="ScrollToSection('Objective')">Project Objective</a></li>
+      </ol>
+      <hr>
+    </section>
+    <section class=sectionOverview id="Overview">
+      <div class=heading>
+        <h2>Project</h2>
+        <h1>Overview</h1>
+      </div>
+      <div class=content>
+        <p>A line-following robot is an autonomous or semi-autonomous robot <br>designed to follow a designated path by tracking lines or patterns on the <br>ground. It employs a combination of sensors, algorithms, and actuators <br>to detect and respond to variations in the line, allowing it to navigate <br>along the desired route. These robots are highly adaptable machines <br>that have played an crucial role in a wide range of industries and fields.</p>
+        <div class=line1></div>
+        <p>The primary component of a line-following robot is its sensor <br>system. Typically, it uses one or more light sensors, such as infrared or <br>reflective sensors, to detect the contrast between the line and the surface. <br>These sensors provide feedback to the robot's control system, allowing it <br>to make decisions on how to adjust its movements and stay on the line.</p>
+      </div>
+      <div class=images>
+        <img src="https://i.ibb.co/9HL20rG/Line-Follower-Gif.gif">
+      </div>
+    </section>
+    <section class=sectionDetails id="Details">
+      <div class=heading>
+        <h2>Project</h2>
+        <h1>Details</h1>
+      </div>
+      <div class=content>
+        <p>This Project utilizes infrared sensors to track lines or patterns on the ground.<br>
+These sensors provide a digital reading, where black is represented as 0 and <br>
+white as 1. By using multiple sensors, we can determine the exact location of <br>
+the line and transmit this information to a microcontroller.<br><br>
+In this project, an Arduino Uno microcontroller is employed, although other <br>
+variations like Arduino Mega or Arduino Nano can also be used. The <br>
+microcontroller acts as the brain of the robot, processing the sensor data <br>
+and implementing specific algorithms. One popular algorithm used is the <br>
+Proportional-Integral-Derivative (PID), which calculates the necessary <br>
+adjustments to keep the robot centered on the line.<br>
+
+</p>
+        <div class=line2></div>
+        <p>To facilitate the coordination between the microcontroller and the motors, <br>I have
+utilized a motor driver called L298N . The motor driver enables the <br>microcontroller 
+to control the speed and direction of the motors based on <br>the sensor readings. Power 
+for the motor driver is supplied by a 3x cell <br>holder, providing a 12V power source.<br><br>
+  All these components are integrated onto a custom-made acrylic sheet,<br>
+which serves as the chassis or base for the line following robot. The acrylic<br>
+ sheet provides a stable platform for mounting the sensors, microcontroller,<br>
+ motor driver, and other necessary components. By combining all these<br>
+elements, the project culminates in a fully functional line following robot.
+</p>
+      </div>
+      <div class=images>
+        <img src="https://i.ibb.co/G3TV6xK/Op-Lfr.jpg">
+        <img src="https://i.ibb.co/L6N8gFg/schematic-1.png">
+        <img src="https://i.ibb.co/X5nkMND/Flow-chart-of-line-follower.png">
+      </div>
+    </section>
+    <section class=sectionObjective id="Objective">
+      <div class=heading>
+        <h2>Project</h2>
+        <h1>Objective</h1>
+      </div>
+      <div class=content>
+        <p>The objective of the Line Following Robot in the real world is to <br>
+address various problem-solving scenarios and reduce human <br>
+efforts in specific applications. The aim is to utilize the capabilities <br>
+of autonomous line-following robots to provide efficient and reliable <br>
+solutions to real-world challenges, such as industial automation, <br>
+security and surveillance, research and development, education <br>
+and learning, etc.</p>
+        <div class=line3></div>
+        <ul>
+          <li>
+            Industial Automation: These robots can be used in industries <br>to automate repetitive tasks to enhance productivity, reduce <br>errors, and minimize the need for human efforts.
+          </li>
+          <li>
+            Security and surveillence: These robots can be equipped with <br>additional sensors and cameras to patrol designated areas.
+          </li>
+          <li>
+            Reseach and Development: Reseachers can experiment with <br>this robot to enhance it's performance and capabilities.
+          </li>
+          <li>
+            Education and learning: These robots can also be used to promote <br>learning and inspire interest in robotics and STEM fields.
+          </li>
+        </ul>
+      </div>
+      <div class=images>
+        <img src="https://i.ibb.co/k04NDN6/Industial-LFR.jpg">
+        <img src="https://i.ibb.co/s2g9dZK/single-Photo-1-resize-View-Port-1400-file-Reference-Original.jpg">
+      </div>
+    </section>
+    <div></div>
+  </body>
+</hmtl>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
