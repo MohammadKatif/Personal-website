@@ -1,124 +1,162 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - case study-3</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<hmtl>
+<html lang="en">
   <head>
-    <title>CaseStudy</title>
+    <meta charset="UTF-8" />
+    <title>Katif Personal Website</title>
+    <link rel="stylesheet" href="./CS.css" />
   </head>
   <body>
-    <section class=sectionBanner>
-      <div class=heroBanner>
-        <h1>Case Study</h1>
-        <hr>
-        <h2>Smart Blind Stick</h2>
-      </div>
-    </section>
-    <section class=sectionChapters>
-      <div class=heading>
-        <h2>Case Study</h2>
-        <h1>Chapters</h1>
-      </div>
-      
-      <ol>
-        <li><a onClick="ScrollToSection('Overview')">Project Overview</a></li>
-        <li><a onClick="ScrollToSection('Details')">Project Details</a></li>
-        <li><a onClick="ScrollToSection('Objective')">Project Objective</a></li>
-      </ol>
-      <hr>
-    </section>
-    <section class=sectionOverview id="Overview">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Overview</h1>
-      </div>
-      <div class=content>
-        <p>The smart blind stick project is a technological innovation aimed at <br>
-enhancing the independence and safety of visually impaired individuals. <br>
-By integrating various sensors, such as ultrasonic and infrared sensors, <br>
-along with advanced navigation algorithms, this smart device can detect <br>
-obstacles, drop-offs, and potential hazards in the user's path. <br></p>
-        <div class=line1></div>
-        <p>It provides real-time feedback through vibration alerts, sound cues, <br>
-or even smartphone notifications, enabling the user to navigate <br>
-their surroundings with greater confidence and reduced risk</p>
-      </div>
-      <div class=images>
-        <img src="https://s11.gifyu.com/images/SQA7Y.jpg">
-      </div>
-    </section>
-    <section class=sectionDetails id="Details">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Details</h1>
-      </div>
-      <div class=content>
-        <p>Traditionally constructed using a metal pipe, variations of this assistive device<br> can also be crafted from different materials to suit individual preferences. At<br>
-its core, the device utilizes a microcontroller, often an Arduino Nano, although<br>
-other compatible models can also be used, to orchestrate its smart functions.<br><br>
-Central to the system's obstacle detection mechanism is the ultrasonic sensor.<br>
-Comprising two integral parts, the sensor operates by emitting ultrasonic sound<br> 
-waves, typically at frequencies beyond 20kHz, from one end towards potential <br>
-obstacles. The sound waves collide with objects in the surroundings and then <br>
-rebound towards the sensor's receiving end.
+    <!-- partial:index.partial.html -->
+    <hmtl>
+      <head>
+        <title>CaseStudy</title>
+      </head>
+      <body>
+        <section class="sectionBanner">
+          <div class="heroBanner">
+            <h1>Case Study</h1>
+            <hr />
+            <h2>Smart Blind Stick</h2>
+          </div>
+        </section>
+        <section class="sectionChapters">
+          <div class="heading">
+            <h2>Case Study</h2>
+            <h1>Chapters</h1>
+          </div>
 
-</p>
-        <div class=line2></div>
-        <p>By measuring the duration between transmission and reception, the <br>Arduino microcontroller calculates the time taken for the sound wave's <br>round trip. Dividing this duration by 2 provides the one-way time, which <br>is then multiply by the speed of sound to get the distance between the <br>sensor and the obstacle.<br><br>
-  When this distance falls below a predetermined threshold, the smart <br>
-blind stick instantly alerts the user through a variety of means. While a<br>
-common choice is a buzzer integrated into the stick, alternatives such as<br>
-vibration alerts or smartphone notifications can also be implemented.
-</p>
-      </div>
-      <div class=images>
-        <img src="https://s12.gifyu.com/images/SQAkG.jpg">
-        <img src="https://s11.gifyu.com/images/SQAq9.png">
-        <img src="https://s12.gifyu.com/images/SQAv4.jpg">
-        
-      </div>
-    </section>
-    <section class=sectionObjective id="Objective">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Objective</h1>
-      </div>
-      <div class=content>
-        <p> Its primary objective is to develop a technologically advanced <br>
-          blind stick equipped with ultrasonic sensors, capable of detecting<br>
-          obstacles and providing real-time feedback to users. This aims to <br>
-          significantly enhance mobility and safety, enabling seamless <br>
-          navigation through various environments. </p>
-        <div class=line3></div>
-        <ul>
-          <li>
-            Enhanced Mobility:  The project's core focus is on empowering<br>
-            visually impaired individuals with real-time obstacle detection<br>
-            and feedback, significantly enhancing their mobility.
-          </li>
-          <li>
-            Educational Impact: Serving as an educational tool, the<br>
-            project inspires students and budding engineers to explore<br>
-            different realms of robotics encouraging innovation.
-          </li>
-        </ul>
-      </div>
-      <div class=images>
-        <img src="https://s11.gifyu.com/images/SQAIz.jpg">
-        <img src="https://s11.gifyu.com/images/SQAI9.jpg">
-      </div>
-    </section>
-    <div></div>
+          <ol>
+            <li>
+              <a onClick="ScrollToSection('Overview')">Project Overview</a>
+            </li>
+            <li><a onClick="ScrollToSection('Details')">Project Details</a></li>
+            <li>
+              <a onClick="ScrollToSection('Objective')">Project Objective</a>
+            </li>
+          </ol>
+          <hr />
+        </section>
+        <section class="sectionOverview" id="Overview">
+          <div class="heading">
+            <h2>Project</h2>
+            <h1>Overview</h1>
+          </div>
+          <div class="content">
+            <p>
+              The smart blind stick project is a technological innovation aimed
+              at <br />
+              enhancing the independence and safety of visually impaired
+              individuals. <br />
+              By integrating various sensors, such as ultrasonic and infrared
+              sensors, <br />
+              along with advanced navigation algorithms, this smart device can
+              detect <br />
+              obstacles, drop-offs, and potential hazards in the user's path.
+              <br />
+            </p>
+            <div class="line1"></div>
+            <p>
+              It provides real-time feedback through vibration alerts, sound
+              cues, <br />
+              or even smartphone notifications, enabling the user to navigate
+              <br />
+              their surroundings with greater confidence and reduced risk
+            </p>
+          </div>
+          <div class="images">
+            <img src="https://s11.gifyu.com/images/SQA7Y.jpg" />
+          </div>
+        </section>
+        <section class="sectionDetails" id="Details">
+          <div class="heading">
+            <h2>Project</h2>
+            <h1>Details</h1>
+          </div>
+          <div class="content">
+            <p>
+              Traditionally constructed using a metal pipe, variations of this
+              assistive device<br />
+              can also be crafted from different materials to suit individual
+              preferences. At<br />
+              its core, the device utilizes a microcontroller, often an Arduino
+              Nano, although<br />
+              other compatible models can also be used, to orchestrate its smart
+              functions.<br /><br />
+              Central to the system's obstacle detection mechanism is the
+              ultrasonic sensor.<br />
+              Comprising two integral parts, the sensor operates by emitting
+              ultrasonic sound<br />
+              waves, typically at frequencies beyond 20kHz, from one end towards
+              potential <br />
+              obstacles. The sound waves collide with objects in the
+              surroundings and then <br />
+              rebound towards the sensor's receiving end.
+            </p>
+            <div class="line2"></div>
+            <p>
+              By measuring the duration between transmission and reception, the
+              <br />Arduino microcontroller calculates the time taken for the
+              sound wave's <br />round trip. Dividing this duration by 2
+              provides the one-way time, which <br />is then multiply by the
+              speed of sound to get the distance between the <br />sensor and
+              the obstacle.<br /><br />
+              When this distance falls below a predetermined threshold, the
+              smart <br />
+              blind stick instantly alerts the user through a variety of means.
+              While a<br />
+              common choice is a buzzer integrated into the stick, alternatives
+              such as<br />
+              vibration alerts or smartphone notifications can also be
+              implemented.
+            </p>
+          </div>
+          <div class="images">
+            <img src="https://s12.gifyu.com/images/SQAkG.jpg" />
+            <img src="https://s11.gifyu.com/images/SQAq9.png" />
+            <img src="https://s12.gifyu.com/images/SQAv4.jpg" />
+          </div>
+        </section>
+        <section class="sectionObjective" id="Objective">
+          <div class="heading">
+            <h2>Project</h2>
+            <h1>Objective</h1>
+          </div>
+          <div class="content">
+            <p>
+              Its primary objective is to develop a technologically advanced
+              <br />
+              blind stick equipped with ultrasonic sensors, capable of
+              detecting<br />
+              obstacles and providing real-time feedback to users. This aims to
+              <br />
+              significantly enhance mobility and safety, enabling seamless
+              <br />
+              navigation through various environments.
+            </p>
+            <div class="line3"></div>
+            <ul>
+              <li>
+                Enhanced Mobility: The project's core focus is on empowering<br />
+                visually impaired individuals with real-time obstacle
+                detection<br />
+                and feedback, significantly enhancing their mobility.
+              </li>
+              <li>
+                Educational Impact: Serving as an educational tool, the<br />
+                project inspires students and budding engineers to explore<br />
+                different realms of robotics encouraging innovation.
+              </li>
+            </ul>
+          </div>
+          <div class="images">
+            <img src="https://s11.gifyu.com/images/SQAIz.jpg" />
+            <img src="https://s11.gifyu.com/images/SQAI9.jpg" />
+          </div>
+        </section>
+        <div></div>
+      </body>
+    </hmtl>
+    <!-- partial -->
+    <script src="./CS.js"></script>
   </body>
-</hmtl>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
 </html>
