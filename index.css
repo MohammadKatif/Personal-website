@@ -537,8 +537,6 @@ body{
         align-items:center;
         background-color:gray;
         gap:20px;
-        padding-top:;
-        padding-bottom:;
         background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("https://i.ibb.co/g92Z830/tim-mossholder-07uiq-D9-LS6-U-unsplash.jpg");
         background-repeat:no-repeat;
         background-size:cover;
@@ -654,21 +652,28 @@ body{
         animation: TextAnimation 1s ease-in-out forwards ;
       }
       .divProjects{
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;
-        align-items:flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         gap:50px;
         padding-left:50px;
         animation: TextAnimation 1s ease-in-out forwards ;
       }
-      .divProjects img{
-        
-      }
       .projectInfo{
         
       }
+      .projectImgWrapper {
+        min-width: 300px;
+      }
+      .projectImg {
+        width: 100%;
+        height: 100%;
+      }
       .projectInfo h2{
+        min-width: 300px;
+        max-width: 600px;
         font-size:25px;
         font-weight:bold;
         font-family:"Roboto", sans-serif;
