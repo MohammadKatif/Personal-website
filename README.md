@@ -8,3 +8,7 @@ This website is divided into 2 sections. The first section is the Home Page, whi
 .This website was actually developed on a online code editor known as Codepen: https://codepen.io/MrKTF/full/ExONBLa . 
 .All the images used in this website are hosted on a free online image hosting websites such as imgbb.com and gifyu.com and their link is provided in the html code. 
 .Sadly this website is not currently responsive with different display sizes other than a specific desktop display size (On which I had previously developed it). 
+
+# Hosting
+.This website is currently hosted on Netlify.
+.Website: https://mohammad-katif.netlify.app/
