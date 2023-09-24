@@ -630,15 +630,13 @@ body{
       }
       
       .sectionProjects{ 
-        width:100%;
         display:flex;
         flex-direction:column;
-        justify-content:flex-start;
-        align-items:flex-start;
+        justify-content:center;
+        align-items:center;
         background-color:inherit;
         gap:40px;
-        padding-top:80px;
-        padding-bottom:80px;
+        padding:5%;
         
       } 
       .sectionProjects h1{
@@ -655,14 +653,10 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        gap:50px;
-        padding-left:50px;
+        gap: 25px;;
         animation: TextAnimation 1s ease-in-out forwards ;
-      }
-      .projectInfo{
-        
       }
       .projectImgWrapper {
         min-width: 300px;
@@ -671,15 +665,23 @@ body{
         width: 100%;
         height: 100%;
       }
-      .projectInfo h2{
+      .projectInfo{
+        width: 100%;
+        height: 100%;
+      }
+      .projectInfoWrapper{
         min-width: 300px;
-        max-width: 600px;
+        max-width: 500px;
+      }
+      .projectInfo h2{
         font-size:25px;
         font-weight:bold;
         font-family:"Roboto", sans-serif;
         color:black;
       }
       .projectInfo p{
+        min-width: 300px;
+        max-width: 500px;
         font-size:16px;
         font-weight:400;
         font-family:"Roboto", sans-serif;
