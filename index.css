@@ -101,6 +101,8 @@ body{
         color:white;
       }
       .divParagraph{
+        min-width: 200px;
+        max-width: 330px;
         opacity:0;
         font-family:"Roboto", sans-serif;
         font-weight:400;
@@ -109,9 +111,11 @@ body{
         animation: TextAnimation 1s ease-in forwards 0.5s;
       }
       .divParagraph p{
+        width:100%;
         margin-bottom:-10px;
       }
       .divParagraph hr{
+        width:100%;
         margin-top:20px;
       }
       #Circle{
@@ -671,7 +675,7 @@ body{
       }
       .projectInfoWrapper{
         min-width: 300px;
-        max-width: 500px;
+        max-width: 450px;
       }
       .projectInfo h2{
         font-size:25px;
