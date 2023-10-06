@@ -80,40 +80,42 @@ body{
       }
       .line1{
         width: 1px;
-        min-height: 110px;
-        max-height: 400px;
+        min-height: 100px;
+        max-height: 500px;
         height:100%;
         background-color: black;
         align-self:center;
-        justify-self:center;
+        
       }
       .line2{
         width: 1px;
-        height: 210px;
+        min-height: 180px;
+        max-height: 500px;
+        height: 100%;
         background-color: black;
         align-self:center;
-        justify-self:center;
       }
       .line3{
         width: 1px;
-        height: 175px;
+        min-height: 140px;
+        max-height: 500px;
+        height: 100%;
         background-color: black;
-        align-self:flex-start;
-        justify-self:center;
+        align-self:center;
       }
       .contentdiv{
-        padding-left: 50px;
-        padding-right: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
       }
       .content{
         display:flex;
         flex-direction:row;
         align-items:flex-start;
-        justify-content:center;
+        justify-content:space-between;
         gap:20px;
         width:100%;
-        padding: 50px;
-
+        padding-top: 3%;
+        padding-bottom: 3%
       }
       .content p{
         min-width: 300px;
@@ -122,17 +124,19 @@ body{
         font-weight: 400;
         font-family:"Roboto", sans-serif;
         color:black;
-      margin-top:0px;
+        margin-top:0px;
         margin-bottom:0px;
       }
       .content ul{
+        min-width: 250px; /*This is 250px not 300px bcuz the ul dots takes up additional 50px */
+        max-width: 550px;
         display:flex;
         flex-direction:column;
-        gap:5px;
         align-self:flex-start;
         margin-top:0px;
       }
       .content ul li{
+        
         font-size:16px;
         font-weight:400;
         font-family:"Roboto", sans-serif;
