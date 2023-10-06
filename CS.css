@@ -118,7 +118,7 @@ body{
         padding-bottom: 3%
       }
       .content p{
-        min-width: 300px;
+        min-width: 250px;
         max-width: 550px;
         font-size: 16px;
         font-weight: 400;
@@ -128,19 +128,21 @@ body{
         margin-bottom:0px;
       }
       .content ul{
-        min-width: 250px; /*This is 250px not 300px bcuz the ul dots takes up additional 50px */
+        min-width: 200px; /*This is 100px not 150px bcuz the ul dots takes up additional 50px */
         max-width: 550px;
+        height:100%;
         display:flex;
         flex-direction:column;
         align-self:flex-start;
         margin-top:0px;
+      }
+      .content ul li{
+        
         font-size:16px;
         font-weight:400;
         font-family:"Roboto", sans-serif;
         color:black;
-
       }
-
       .images{
         
         display:flex;
