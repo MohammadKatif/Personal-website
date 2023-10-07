@@ -1,105 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Case Study 1</title>
-  <link rel="stylesheet" href="./CS.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<hmtl>
   <head>
-    <title>CaseStudy</title>
+    <meta charset="UTF-8">
+    <title>Case Study 1</title>
+    <link rel="stylesheet" href="./CS.css">
   </head>
   <body>
-    <section class=sectionBanner>
-      <div class=heroBanner>
-        <h1>Case Study</h1>
-        <hr>
-        <h2>Facial Recognition</h2>
-      </div>
-    </section>
-    <section class=sectionChapters>
-      <div class=heading>
-        <h2>Case Study</h2>
-        <h1>Chapters</h1>
-      </div>
-      
-      <ol>
-        <li><a onClick="ScrollToSection('Overview')">Project Overview</a></li>
-        <li><a onClick="ScrollToSection('Details')">Project Details</a></li>
-        <li><a onClick="ScrollToSection('Objective')">Project Objective</a></li>
-      </ol>
-      <hr>
-    </section>
-    <section class=sectionOverview id="Overview">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Overview</h1>
-      </div>
-      <div class="contentdiv">
-        <div class=content>
-          <p>Facial recognotion is a computer vision project  that invovles collection of diverse datasets, facial images, facial,videos, etc. The data is then passed to the facial features detection algorithms and APIs, which uses the variations in facial features to match the real realtime facial images and video frames with the large database of facial images. And as a result successfully recognizing face if it's matched within the provided database.
-          <div class=line1></div>
-          <p>Facial recognition technology plays a very crucial role in enhancing security and convenience. In simple words, it accurately identifies individuals based on their unique facial features, enhancing access control and authentication processes.</p>
-        </div>
-      </div>
-      <div class=images>
-        <img src="https://s11.gifyu.com/images/SQAEa.jpg">
-      </div>
-    </section>
-    <section class=sectionDetails id="Details">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Details</h1>
-      </div>
-      <div class="contentdiv">
-        <div class=content>
-          <p>In this face recognition project, I utilized Jupyter Notebook as my Integrated Development Environment (IDE), coupled with combination of Python programming language and OpenCV.<br><br>The project consists of several essential steps. First, real-time footage of faces is captured using cameras or video sources. The captured frames are then processed to detect and extract facial features using advanced algorithms and OpenCV's pre-trained models. These features include facial landmarks, facial expressions, and other unique characteristics.</p>
-          <div class=line2></div>
-          <p>Next, the extracted facial features are compared and matched with a vast database containing an extensive collection of human facial images. This database serves as a reference for recognition. <br><br>Various techniques, such as deep learning models, are employed to ensure accurate and reliable matching between the captured facial features and the database. Deep learning models, particularly convolutional neural networks (CNNs) are very well known in the field of face recognition because of their rigorous training on a vast database of facial images.</p>
-        </div>
-      </div>
-      <div class=images>
-        <img src="https://s12.gifyu.com/images/SQA9Q.jpg">
-        <img src="https://s11.gifyu.com/images/SQA9F.jpg">
-        
-      </div>
-    </section>
-    <section class=sectionObjective id="Objective">
-      <div class=heading>
-        <h2>Project</h2>
-        <h1>Objective</h1>
-      </div>
-      <div class="contentdiv">
-        <div class=content>
-          <p>The objective of this project is to develop an accurate system for automatically identifying individuals based on their facial features. The primary aim is to leverage computer vision techniques, machine learning algorithms, and deep neural networks to achieve high-performance face recognition. By accurately identifying individuals, the system can be applied to various applications, including access control, surveillance, and secure authentication.</p>
-          <div class=line3></div>
-          <ul>
-            <li>
-              Access control: It can be employed in access control systems, <br>such as in secure facilities, airports, or smart homes.
-            </li>
-            <li>
-              Security and surveillence: It can enhance surveillance systems <br>by automatically detecting and identifying individuals of interest.
-            </li>
-            <li>
-              Secure authentication: It offers a convenient and reliable <br>alternative to traditional password-based authentication;
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class=images>
-        <img src="https://s12.gifyu.com/images/SQAh2.jpg">
-        <img src="https://s12.gifyu.com/images/SQAhl.jpg">
-        <img src="https://s11.gifyu.com/images/SQAhE.jpg">
-      </div>
-    </section>
-    <div></div>
-  </body>
-</hmtl>
-<!-- partial -->
-  <script  src="./CS.js"></script>
-
-</body>
+  <!-- partial:index.partial.html -->
+    <hmtl>
+      <head>
+        <title>CaseStudy</title>
+      </head>
+      <body>
+        <section class=sectionBanner style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://i.ibb.co/2srzL79/face-detection.jpg');">
+          <div class=heroBanner>
+            <h1>Case Study</h1>
+            <hr>
+            <h2>Facial Recognition</h2>
+          </div>
+        </section>
+        <section class=sectionChapters>
+          <div class=heading>
+            <h2>Case Study</h2>
+            <h1>Chapters</h1>
+          </div>
+          <ol>
+            <li><a onClick="ScrollToSection('Overview')">Project Overview</a></li>
+            <li><a onClick="ScrollToSection('Details')">Project Details</a></li>
+            <li><a onClick="ScrollToSection('Objective')">Project Objective</a></li>
+          </ol>
+          <hr>
+        </section>
+        <section class=sectionOverview id="Overview">
+          <div class=heading>
+            <h2>Project</h2>
+            <h1>Overview</h1>
+          </div>
+          <div class="contentdiv">
+            <div class=content>
+              <p>Facial recognotion is a computer vision project  that invovles collection of diverse datasets, facial images, facial,videos, etc. The data is then passed to the facial features detection algorithms and APIs, which uses the variations in facial features to match the real realtime facial images and video frames with the large database of facial images. And as a result successfully recognizing face if it's matched within the provided database.
+              <div class=line1></div>
+              <p>Facial recognition technology plays a very crucial role in enhancing security and convenience. In simple words, it accurately identifies individuals based on their unique facial features, enhancing access control and authentication processes.</p>
+            </div>
+          </div>
+          <div class=images>
+            <img src="https://s11.gifyu.com/images/SQAEa.jpg">
+          </div>
+        </section>
+        <section class=sectionDetails id="Details">
+          <div class=heading>
+            <h2>Project</h2>
+            <h1>Details</h1>
+          </div>
+          <div class="contentdiv">
+            <div class=content>
+              <p>In this face recognition project, I utilized Jupyter Notebook as my Integrated Development Environment (IDE), coupled with combination of Python programming language and OpenCV.<br><br>The project consists of several essential steps. First, real-time footage of faces is captured using cameras or video sources. The captured frames are then processed to detect and extract facial features using advanced algorithms and OpenCV's pre-trained models. These features include facial landmarks, facial expressions, and other unique characteristics.</p>
+              <div class=line2></div>
+              <p>Next, the extracted facial features are compared and matched with a vast database containing an extensive collection of human facial images. This database serves as a reference for recognition. <br><br>Various techniques, such as deep learning models, are employed to ensure accurate and reliable matching between the captured facial features and the database. Deep learning models, particularly convolutional neural networks (CNNs) are very well known in the field of face recognition because of their rigorous training on a vast database of facial images.</p>
+            </div>
+          </div>
+          <div class=images>
+            <img src="https://s12.gifyu.com/images/SQA9Q.jpg">
+            <img src="https://s11.gifyu.com/images/SQA9F.jpg">
+          </div>
+        </section>
+        <section class=sectionObjective id="Objective">
+          <div class=heading>
+            <h2>Project</h2>
+            <h1>Objective</h1>
+          </div>
+          <div class="contentdiv">
+            <div class=content>
+              <p>The objective of this project is to develop an accurate system for automatically identifying individuals based on their facial features. The primary aim is to leverage computer vision techniques, machine learning algorithms, and deep neural networks to achieve high-performance face recognition. By accurately identifying individuals, the system can be applied to various applications, including access control, surveillance, and secure authentication.</p>
+              <div class=line3></div>
+              <p>.Access control: It can be employed in access control systems, such as in secure facilities, airports, or smart homes.
+              <br><br>.Security and surveillence: It can enhance surveillance systems by automatically detecting and identifying individuals of interest.
+              <br><br>.Secure authentication: It offers a convenient and reliable alternative to traditional password-based authentication.</p>
+            </div>
+          </div>
+          <div class=images>
+            <img src="https://s12.gifyu.com/images/SQAh2.jpg">
+            <img src="https://s12.gifyu.com/images/SQAhl.jpg">
+            <img src="https://s11.gifyu.com/images/SQAhE.jpg">
+          </div>
+        </section>
+        <div></div>
+      </body>
+    </hmtl>
+    <!-- partial -->
+    <script  src="./CS.js"></script>
+    </body>
 </html>
