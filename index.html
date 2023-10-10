@@ -16,20 +16,13 @@
     
     <div id="tab"> 
     <!--  <h2>Mohammad Katif</h2> -->
-      <button onClick="ScrollToSection('home') ; changeSlide(1)">HOME</button>
-      <button onClick="ScrollToSection('home') ; changeSlide(2)">ABOUT</button>
-      <button onClick="ScrollToSection('home') ; changeSlide(3)">STUDIES</button>
-      <button onClick="ScrollToSection('home') ; changeSlide(4)">CERTS</button>
-      <button onClick="ScrollToSection('home') ; changeSlide(5)">SKILLS</button>
+      <button onClick="ScrollToSection('home')">HOME</button>
+      <button onClick="ScrollToSection('about')">ABOUT</button>
+      <button onClick="ScrollToSection('experience')">EXPERIENCES</button>
       <button onClick="ScrollToSection('projects')">PROJECTS</button>
-      
-      
     </div> 
     
-    <div class=slideshow>
-      <div class=slides>
-        <section class=sectionHome id="home">
-      
+    <section class=sectionHome id="home">
       <div class=divheroheader id="head1">
         <span class=hero1>I'm a</span> 
         <span class=hero2>TECH</span>
@@ -41,143 +34,74 @@
       <img id="Circle" src="https://i.ibb.co/09G0w9V/logo-circle-3.png" alt="logo-circle">
       <div class=divParagraph id=para1>
         <p>Hi, I'm Katif a curious tech enthusiast from Pakistan, who likes to explore and work on programming and robotics related projects to excel in today's developing world!.</p>
-        <hr>
-      </div>
+        <hr>  
+    </section>
       
-      </section>
+      
+    <section class=sectionAbout id="about">
+      <div class="Aboutintro">
+        <img id="Aboutpic" src="https://i.ibb.co/LpzrQxC/book-stack.png">
+        <h1>About me</h1>
       </div>
-      <div class=slides>
-        <section class=sectionAbout id="about">
-          <h1>About me</h1>
-          <div class=divAbout>
+    <div class=divAbout>
         <div class=AboutBg>
-        <h2>Background</h2>
-        <p>Surprisingly, I'm Pakistani who was born and raised in a Urdu <br>speaking family living in Karachi. I also have some roots in Gilgit, <br>since it is the hometown of my parents. After completing my secondary <br> school I have developed strong english speaking skill and always <br>eager to learn more languages.</p>
-        <br>
-        <p>With over 5 years of experience in field of robotics, I've had the <br>opportunity to explore the field in detail, build projects, participate in <br>robotics events, get into robotics internships and much more. <br>Apart from robotics I am also active in social service activities, and <br>individualy I contribute my part to it thorugh being an active member <br>of scouting. All these experience are responsible for cultivating several <br>professional skills in me.</p>
+          <h2>Background</h2>
+          <p>Surprisingly, I'm Pakistani who was born and raised in a Urdu speaking family living in Karachi. I also have some roots in Gilgit, since it is the hometown of my parents. After completing my secondary school I have developed strong english speaking skill and always eager to learn more languages.</p>
+          <br>
+          <p>With over 5 years of experience in field of robotics, I've had the opportunity to explore the field in detail, build projects, participate in robotics events, get into robotics internships and much more. Apart from robotics I am also active in social service activities, and individualy I contribute my part to it thorugh being an active member of scouting. All these experience are responsible for cultivating several professional skills in me.</p>
         </div>
         <div class=blackline></div>
         <div class=AboutAva>
           <h2>Availabilities</h2>
-          <p>I'm currently doing an robotics internship in a national level <br>robotics club known as TechTics club. But I'd be happy to consider <br>more opportunities, such as working on any projects, doing <br>collaborations, internship programs, scholarship programs, etc.</p>
+          <p>I'm currently doing an robotics internship in a national level robotics club known as TechTics club. But I'd be happy to consider more opportunities, such as working on any projects, doing collaborations, internship programs, scholarship programs, etc.</p>
           <br>
-          <p>Please feel free to <a class="highlight" >get in touch</a> if you'd like to discuss about any <br>such opportunities.</p>
+          <p>Please feel free to <a class="highlight" >get in touch</a> if you'd like to discuss about any such opportunities.</p>
           <!-- <button id="contactbutton" onClick="ScrollToSection('contact')">Get in touch ?</button> -->
         </div>
-        
-      </div>
-      
-      </section>
-      </div>
-      <div class=slides>
-        <section class=sectionEducation id="education">
-          <div class=Eduintro>
+      </div>  
+    </section>
+
+
+    <!-- <section class=sectionEducation id="education">
+      <div class=Eduintro>
         <img id="Edupic" src="https://i.ibb.co/LpzrQxC/book-stack.png">
         <h1>My Education</h2>
       </div>
-          <div class=divEdu>
-        
+      <div class=divEdu>    
         <div class=EduBg>
           <h2>Educational Background</h2>
           <p>I began my educational journey at Aga Khan School Garden, <br>where I completed my matric education under the curriculum of <br>Aga Khan Board. Recently, I secured admission into Aga Khan <br>Higher Secondary School for my higher secondary education. <br>And Currently, I am actively trying to secure admission into the <br>esteemed institution of Beacon House Pechs.</p>
         </div>
-        
         <div class=line></div>
-          
         <div class=EduAcc>
           <h2>Accomplishment</h2>
-          <p>
-During my time at Aga Khan School Garden, I achieved <br>an impressive 80.7% result in my 9th class in the final <br>exam conducted by Aga Khan Board. With great anticipation, <br>I am currently awaiting for my matriculation results to be <br>revealed, which are expected to be announced in August.</p>
+          <p>During my time at Aga Khan School Garden, I achieved <br>an impressive 80.7% result in my 9th class in the final <br>exam conducted by Aga Khan Board. With great anticipation, <br>I am currently awaiting for my matriculation results to be <br>revealed, which are expected to be announced in August.</p>
         </div>
-        
       </div>
-          <button id="resultbutton" onClick="window.location.href='https://maipdf.com/est/k12362726957@pdf'">View Results</button>
-        </section>
-      </div>
-      <div class=slides>
-        <section class=sectionCertification id="certification">
-      
-      <div class=Certintro>
-        <h1>My Certification</h1>
-        <p>Evidence of excellence</p>
-      </div>
-      
-      <div class=divCert>
-        
-        <div class=CertRobotics>
+      <button id="resultbutton" onClick="window.location.href='https://maipdf.com/est/k12362726957@pdf'">View Results</button>
+    </section>
+ -->
+
+    <section class=sectionExperience id="experience">  
+      <div class=Expintro>
+        <h1>My Experience & Certification</h1>
+        <p>Evidence of Excellence!</p>
+      </div>      
+      <div class=divExp>  
+        <div class=RoboticsExp>
           <h2>Robotics Certification</h2>
-          <p>In my 5 years of robotics experience, I've obtained over <br>10 professional certificates specifically focused on robotics. <br>They signify my unwavering commitment to professional <br>growth and highlight my dedication to excellence in robotics.</p>
+          <p>In my 5 years of robotics experience, I've obtained approximately more than 10 professional certificates specifically focused on robotics. They signify my unwavering commitment to professional growth and highlight my dedication to excellence in robotics.</p>
         </div>
         <div class=line></div>
-        <div class=CertOthers>
+        <div class=OtherExp>
           <h2>Other Certificates</h2>
-          <p>In addition to my experience in robotics, I have also earned <br>nearly 10 professional certificates in various other subjects. <br>These certifications reflects my passion for continuous <br>learning and my willingness to explore different fields.</p>
+          <p>In addition to my experience in robotics, I have also earned atleast 10 certificates in various other subjects. These certifications reflects my passion for continuous learning and my willingness to explore different fields.</p>
         </div>
-          
       </div>
-      
       <button id="certbutton" onClick="window.location.href='https://maipdf.com/est/k14489724956@pdf'" >View Certificates</button>
-      
     </section>
-      </div>
-      <div class=slides>
-        <section class=sectionSkills id="skills">
-      <div class=Skillintro>
-        <h1>My Skills</h1>
-        <p>True capabilities</p>
-      </div>
-      
-      <div class="divSkills">
-        
-        <div class=divSubSkills>
-          <img class=skillimg src=https://i.ibb.co/HYpZcCD/skill-1.png>
-          <h2>Technical Skill</h2>
-      <!--    <p>Proficiency in specific tools, techniques, and software</p> -->
-        </div>
-         
-        <div class=divSubSkills>
-          <img class=skillimg src="https://i.ibb.co/rtvxCXg/problem-solving-1.png">
-          <h2>Problem Solving Skill</h2>
-    <!--        <p>Analytical mindset for resolving problems efficiently.</p> -->
-        </div>
-          
-        <div class=divSubSkills>
-          <img class=skillimg src="https://i.ibb.co/jHLS5f1/skill-development.png">
-          <h2>Leadership and Teamworking Skill</h2>
-    <!--        <p>Effective leadership and collaboration for cohesive teamwork.</p> -->
-        </div>
-        
-        <div class=divSubSkills>
-          <img class=skillimg src="https://i.ibb.co/QY235k1/adaptation.png">
-          <h2>Adaptability Skill</h2>
-   <!--         <p>Being flexible and open-minded in changing circumstances.</p> -->
-        </div>
-          
-        <div class=divSubSkills>
-        <img class=skillimg src="https://i.ibb.co/yXCxMzd/skill.png">        
-        <h2>Critical Thinking Skill</h2>
-    <!--      <p>logically analyzing information for smart decision-making.</p> -->
-        </div>
-          
-        <div class=divSubSkills>
-        <img class=skillimg src="https://i.ibb.co/cNFKcYd/planning.png">
-        <h2>Organizational Skills</h2>
-    <!--      <p>Ability to efficiently manage tasks and resources.</p> -->
-        </div>
-          
-      </div>
-      
-    </section>
-      </div>
-      <div class="navigation-button">
-        <span class="dot" onclick="changeSlide(1)"></span>
-        <span class="dot" onclick="changeSlide(2)"></span>
-        <span class="dot" onclick="changeSlide(3)"></span>
-        <span class="dot" onclick="changeSlide(4)"></span>
-        <span class="dot" onclick="changeSlide(5)"></span>
-    </div>
-    </div>
-    
+
+
     <section class="sectionProjects" id="projects">
       <h1>Leading Projects</h1>
       
@@ -243,27 +167,6 @@ During my time at Aga Khan School Garden, I achieved <br>an impressive 80.7% res
     
     </section>-->
    
-    <script>
-      // JavaScript code to change slides automatically
-      var slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-        var slides = document.getElementsByClassName("slides");
-        
-      for (var i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-          
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 15000); // Change slide every 15 seconds
-      }
-    </script>
-    
   </body>
 </html>
 <!-- partial -->
