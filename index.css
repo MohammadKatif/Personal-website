@@ -120,6 +120,7 @@ margin-bottom:-10px;
 width:100%;
 margin-top:20px;
 }
+
 #Circle{
   opacity:0;
   width:250px;
@@ -152,24 +153,16 @@ margin-top:20px;
   justify-content:center;
   align-items:center;
   background-color:inherit;
-  /* background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("https://i.ibb.co/g92Z830/tim-mossholder-07uiq-D9-LS6-U-unsplash.jpg"); */
   background-repeat:no-repeat;
   background-size:cover;
-  gap: 20px;
-  padding-top: 5%;
-  padding-bottom: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.Aboutintro{
-  display:flex;
-  gap:15px;
-}
-#Aboutpic{
-  opacity:0;
-  height:100px;
-  width:100px;
-  animation: TextAnimation 1s ease-in forwards 0.5s;
+  border-radius:10px;
+  box-shadow: 6px 6px 15px 5px rgb(173, 173, 173);
+  gap: 50px;
+  padding:4%;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .sectionAbout h1{
   opacity:0;
@@ -195,13 +188,13 @@ margin-top:20px;
 }
 .AboutBg h2{
   font-size:25px;
-  font-weight:bold;
+  font-weight:500;
   font-family:"Roboto", sans-serif;
   color:black;
 }
 .AboutBg p{
-  min-width:400px;
-  max-width:500px;
+  min-width:300px;
+  max-width:450px;
   font-size:16px;
   font-weight:400;
   font-family:"Roboto", sans-serif;
@@ -212,33 +205,7 @@ margin-top:20px;
 .About br{
   line-height:1px;
 }
-.blackline{
-  width: 2px;
-  height: 280px;
-  background-color: black;
-  margin-top:20px;
-}
-.AboutAva{
-  display:flex;
-  flex-direction:column;
-}
-.AboutAva h2{
-  font-size:25px;
-  font-weight:bold;
-  font-family:"Roboto", sans-serif;
-  color:black;
-}
-.AboutAva p{
-  min-width:400px;
-  max-width:500px;
-  font-size:16px;
-  font-weight:400;
-  font-family:"Roboto", sans-serif;
-  color:black;
-  margin-top:0px;
-  margin-bottom:0px;
-}
-#contactbutton {
+#certbutton {
   display: inline-block;
   background-color: lightslategray;
   border-radius: 8px;
@@ -252,129 +219,8 @@ margin-top:20px;
   transition: background-color 0.3s, transform 0.3s;
   border:none;
   margin-top:25px;
-  width:30%;
-  height:50px;
-}
-#contactbutton:hover {
-  background-color: white;
-  color: LightSlateGray;
-  transform: scale(1.05);
-  cursor:pointer;
-}
-   
-     
-.sectionExperience{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  background-color:inherit;
-  border-radius: 10px;
-  /* background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.ibb.co/cgQQKrs/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg); */
-  background-repeat:no-repeat;
-  background-size:cover;
-  gap:20px;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-      
-}
-.Expintro{
-  opacity:0;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:5px;
-  animation: TextAnimation 1s ease-in forwards 0.5s;
-}
-.Expintro h1{
-  font-size:35px;
-  font-weight:bolder;
-  font-family:"Raleway", sans-serif;
-  color:black;
-  margin-bottom:5px;
-}
-.Expintro p{
-  position:relative;
-  font-size:16px;
-  font-weight:400;
-  font-family:"Roboto", sans-serif;
-  color:black;
-  margin-top:0;
-}
-#Exppic{
-  height:100px;
-  width:100px;
-}
-.divExp{
-  opacity:0;
-  position:relative;
-  animation: TextAnimation 1s ease-in forwards 0.5s;
-  display:flex;
-  gap:50px;
-  height:100%;
-}
-.RoboticsExp{
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-}
-.RoboticsExp h2{
-  font-size:25px;
-  font-weight:bold;
-  font-family:"Roboto", sans-serif;
-  color:black;
-}
-.RoboticsExp p{
-  min-width:400px;
-  max-width:500px;
-  font-size:16px;
-  font-weight:400;
-  font-family:"Roboto", sans-serif;
-  color:black
-}
-.line {
-  width: 2px;
-  height: 200px;
-  background-color: black;
-}
-.OtherEXP{
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-}
-.OtherExp h2{
-  font-size:25px;
-  font-weight:bold;
-  font-family:"Roboto", sans-serif;
-  color:black;
-}
-.OtherExp p{
-  min-width:400px;
-  max-width:500px;
-  font-size:16px;
-  font-weight:400;
-  font-family:"Roboto", sans-serif;
-  color:black
-}
-#certbutton {
-  opacity:0;
-  display: inline-block;
-  background-color: lightslategray;
-  border-radius: 8px;
-  padding: 15px 30px;
-  color: white;
-  text-decoration: none;
-  font-size:18px;
-  font-weight: bold;
-  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-  transition: color 0.3s;
-  transition: background-color 0.3s, transform 0.3s;
-  border:none;
-  /* margin-bottom:80px; */
-  animation: TextAnimation 1s ease-in forwards 0.5s;
+  width:40%;
+  height:10%;
 }
 #certbutton:hover {
   background-color: white;
@@ -389,10 +235,14 @@ margin-top:20px;
   justify-content:center;
   align-items:center;
   background-color:inherit;
+  box-shadow: 6px 6px 15px 5px rgb(173, 173, 173);
+  border-radius:10px;
   gap:40px;
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding:4%;
+  margin-top: 2.5%;
+  margin-bottom:2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
      
 } 
 .sectionProjects h1{
@@ -437,7 +287,7 @@ margin-top:20px;
 }
 .projectInfo p{
   min-width: 300px;
-  max-width: 500px;
+  max-width: 450px;
   font-size:16px;
   font-weight:400;
   font-family:"Roboto", sans-serif;
@@ -469,6 +319,24 @@ margin-top:20px;
   cursor:pointer;
 }
     
+.sectionRecommendation{
+  background-color:#40434A;
+  height: 300px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 6px 6px 15px 5px rgb(173, 173, 173);
+  border-radius:10px;
+  gap:40px;
+  padding:4%;
+  margin-top: 2.5%;
+  margin-bottom:2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
 @keyframes TextAnimation{
   0%{
     opacity:0;
