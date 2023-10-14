@@ -42,7 +42,7 @@ body{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.ibb.co/Nmg65nb/code-bg-1.jpg); 
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("IDE-background.jpg"); 
   background-repeat:no-repeat;
   background-size:cover;
 } 
