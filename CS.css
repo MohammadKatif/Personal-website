@@ -125,11 +125,14 @@ body{
   margin-top:0px;
   margin-bottom:0px;
   } 
+#ObjectiveContent p{
+  max-width:450px;
+}
 .images{      
   display:flex;
   flex-direction:column;
   gap:50px;
-  width:100%;
+  width:85%;
   }
 .images img{
   padding-left:5%;
