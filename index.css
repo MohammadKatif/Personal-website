@@ -49,12 +49,12 @@ body{
 #head1{
   position:relative;
   top:100px;
-  left:-240px;
+  left:-270px;
 } 
 #para1{
   cursor:pointer;
   position:relative;
-  right:-305px;
+  right:-315px;
   bottom:100px;
   transition: color 0.3s ease-in;
 }
@@ -64,7 +64,7 @@ body{
 .divheroheader{
   opacity:0;
   cursor:pointer;
-  font-size:35px;;
+  font-size:40px;;
   line-height:1.2;
   font-family:"Raleway", sans-serif;
   animation: TextAnimation 1s ease-in forwards 0.5s;
@@ -87,7 +87,7 @@ body{
 .hero2{
   color:deepskyblue;
   font-weight:bolder;
-  font-size:40px;
+  font-size:45px;
   transition: color 0.3s ease-out;
 }
 .hero2:hover{
@@ -96,7 +96,7 @@ body{
 .hero3{
   color:deepskyblue;
   font-weight:bolder;
-  font-size:40px;
+  font-size:45px;
   transition: color 0.3s ease-out;
 }
 .hero3:hover{
@@ -108,7 +108,7 @@ body{
   opacity:0;
   font-family:"Roboto", sans-serif;
   font-weight:400;
-  font-size:16px;
+  font-size:17px;
   color:white;
   animation: TextAnimation 1s ease-in forwards 0.5s;
 }
@@ -117,14 +117,14 @@ width:100%;
 margin-bottom:-10px;
 }
 .divParagraph hr{
-width:100%;
+width:90%;
 margin-top:20px;
 }
 
 #Circle{
   opacity:0;
-  width:250px;
-  height:250px;
+  width:300px;
+  height:300px;
   z-index:0;
   pointer-events:none;
   animation: FadeIn 1s ease-in forwards 0.5s;
@@ -133,10 +133,10 @@ margin-top:20px;
   opacity:0;
   position:absolute;
   align-self: center;
-  top:220px;
+  top:190px;
   border-radius:50%;
-  width:210px;
-  height:210px;
+  width:250px;
+  height:250px;
   transition:transform 0.3s ease-out, filter 0.3s ease-in;
   z-index:0;
   animation: FadeIn 1s ease-in forwards 0.5s;
